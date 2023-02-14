@@ -156,5 +156,3 @@ window.onload = function(){
     console.log("aaa")
     start()
 }
-
-// MINUTA 19:00
