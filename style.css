@@ -1,0 +1,65 @@
+body{
+    background-color: #2b2b2b;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#board{
+    height: 600px;
+    width: 600px;
+    background-color: #474747;
+    border: 8px solid #1a1a1a;
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board div{
+    width: 36px;
+    height: 36px;
+    border: 2px solid #1a1a1a;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.clicked{
+    background-color: #5c5b5b;
+}
+
+.number1{
+    color: blue;
+}
+
+.number2{
+    color: green;
+}
+
+.number3{
+    color: red;
+}
+
+.number4{
+    color: purple;
+}
+
+.number5{
+    color: maroon;
+}
+
+.number6{
+    color: turquoise;
+}
+
+.number7{
+    color: teal;
+}
+
+.number8{
+    color: darkslateblue;
+}
